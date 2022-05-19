@@ -1,0 +1,69 @@
+Definir usuário
+git config --global user.name "Leonardo Comelli"
+
+Definir e-mail
+git config --global user.email leonardo@software-ltda.com.br
+
+Editor Setar
+git config --global core.editor vim
+
+Setar ferramenta de mesclagem
+git config --global merge.tool vimdiff
+
+Setar arquivos a serem ignorados
+git config --global core.excludesfile ~/.gitignore
+
+Listar configurações
+git config --list
+
+Repositório Local
+novo criar recurso
+git init
+
+Verificar estado dos arquivos/diretórios
+git status
+
+Adicionar arquivo/diretório (área encenada)
+Adicionar um arquivo em específico
+git add meu_arquivo.txt
+
+Adicionar um diretório específico
+git add meu_diretorio
+
+Adicionar todos os arquivos/diretórios
+git add .
+	
+Adicionar um arquivo que esta lista no .gitignore (geral ou do administrador)
+git add -f arquivo_no_gitignore.txt
+
+Comitar arquivo/diretório
+Comitar um arquivo
+git commit meu_arquivo.txt
+
+Comitar vários arquivos
+git commit meu_arquivo.txt meu_outro_arquivo.txt
+
+Comitar informando mensagem
+git commit meuarquivo.txt -m "minha mensagem de commit"
+
+Remover arquivo/diretório
+Remover arquivo
+git rm meu_arquivo.txt
+
+Remover pasta
+git rm -r diretorio
+Histórico
+
+Exibir histórico
+git log
+Exibir histórico com diff das duas últimas mudanças
+git log -p -2
+
+Exibir resumo do histórico (hash completa, autor, data, comentário e qtde de changes (+/-))
+git log --stat
+
+Exibir informações resumidas em uma linha (hash completa e comentário)
+git log --pretty=oneline
+
+Exibir histórico com formatação específica (hash abreviada, autor, data e comentário)
+git log --pretty=format:"%h - %an, %ar : %s"

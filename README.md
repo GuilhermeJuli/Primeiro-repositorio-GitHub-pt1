@@ -2,6 +2,6 @@
 Repositorio da Dio sobre o desafio 
 
 
-  ##Links privites  
+  ##Links Profissionais
 
 [LinkIn](https://www.linkedin.com/feed/?trk=BR-SEM_google-adwords_Jordan-brand-sign-up)
